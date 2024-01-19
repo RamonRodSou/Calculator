@@ -1,12 +1,11 @@
 .display, .complete_operation {
     width: 80%;
     height: 2rem;
-    border: 1px solid #000;
+    border: 1px solid #ffffff;
     margin-bottom: 10px;
     text-align: right;
     font-size: 1.3rem;
     padding: 1rem;
-    border:  1px solid #440303;
     border-radius: 20px;
     overflow: auto;
     font-weight: bold;
