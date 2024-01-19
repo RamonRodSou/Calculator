@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import styles from './Calculator.module.css'
 import ButtonsOperator from '../ButtonsOperator/ButtonsOperator'
 import Display from '../Display/Display'
@@ -18,7 +18,6 @@ const Calculator = () => {
       <ButtonsOperator
 
         setCompleteOperation={setCompleteOperation}
-        completeOperation={completeOperation}
         setCurrentValue={setCurrentValue}
         currentValue={currentValue}      
         setPendingOperation={setPendingOperation}

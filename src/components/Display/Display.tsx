@@ -6,8 +6,7 @@ interface DisplayProps {
   }
 
 const Display: React.FC<DisplayProps> = ({ completeOperation, currentValue }) => {
-
-
+    
     return (
         <>
             <div className={styles.complete_operation}>{completeOperation}</div>

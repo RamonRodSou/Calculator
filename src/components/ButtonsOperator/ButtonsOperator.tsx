@@ -3,7 +3,6 @@ import { ICalculator } from '../../interfaces/OperationCalculator'
 
 interface ButtonsOperatorProps {
   setCompleteOperation: React.Dispatch<React.SetStateAction<string | null>>
-  completeOperation: string | null;
   setCurrentValue: React.Dispatch<React.SetStateAction<string | null>>
   currentValue: string | null ;
   setPendingOperation: React.Dispatch<React.SetStateAction<string | null>>
@@ -24,7 +23,6 @@ const operations = logic.operations
 const ButtonsOperator: React.FC<ButtonsOperatorProps> = ({
 
   setCompleteOperation,
-  completeOperation,
   setCurrentValue,
   currentValue,
   setPendingOperation,
