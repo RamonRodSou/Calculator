@@ -1,0 +1,11 @@
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+
+.button {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #ff0000;
+}
