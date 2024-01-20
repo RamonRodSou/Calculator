@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import React, { useState } from 'react'
 import styles from './Calculator.module.css'
 import ButtonsOperator from '../ButtonsOperator/ButtonsOperator'
 import Display from '../Display/Display'

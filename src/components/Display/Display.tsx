@@ -1,3 +1,4 @@
+import React from 'react'
 import styles from  './Display.module.css'
 
 interface DisplayProps {

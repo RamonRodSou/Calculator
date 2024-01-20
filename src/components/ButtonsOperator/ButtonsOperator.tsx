@@ -1,3 +1,4 @@
+import React from 'react'
 import styles from './ButtonsOperator.module.css'
 import { ICalculator } from '../../interfaces/OperationCalculator'
 
